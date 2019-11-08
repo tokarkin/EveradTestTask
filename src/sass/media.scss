@@ -164,8 +164,11 @@
 @media screen and (max-width: 992px) {
 
   .container {
-    width: 1300px;
-
+    width:900px;
+    background: url("../../images/299.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-position: center center;
   }
   .button__wrapper {
