@@ -1,0 +1,222 @@
+.header {
+  &__nav {
+    padding: 10px 5px 10px 200px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item {
+
+      display: flex;
+
+      &__name {
+        color: black;
+        align-self: center;
+        padding: 0px 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        margin-right: 50px;
+        font-weight: bold;
+      }
+
+      &__icon {
+        width: 35px;
+        height: 35px;
+      }
+
+      &__icon2 {
+        width: 28px;
+      }
+
+      &__text {
+        padding: 0px 15px;
+        font-family: "Roboto Light";
+        font-style: italic;
+        color: #666666;
+      }
+    }
+  }
+
+  &__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+
+    &__inner {
+      margin: 20px 520px;
+      position: absolute;
+      width: 350px;
+
+      &__slogan {
+        font-size: 44px;
+        font-family: "Roboto Light";
+        padding-bottom: 15px;
+      }
+
+      &__block {
+        display: flex;
+
+        &__img {
+          width: 100px;
+          padding-top: 10px;
+        }
+
+        &__section {
+          padding: 5px;
+
+          &__text {
+            padding-top: 10px;
+            font-family: Roboto;
+            font-size: 18px;
+          }
+
+          &__text:nth-child(2) {
+            padding-top: 40px;
+          }
+
+          &__text:nth-child(3) {
+            padding-top: 40px;
+          }
+        }
+      }
+    }
+
+    &__telephon {
+      float: right;
+      width: 334px;
+      height: 617px;
+      background: url("../../images/Shape __buy.png");
+
+      &__subtitle {
+        font-size: 20px;
+        font-family: 'Roboto:500', sans-serif;
+        text-align: center;
+      }
+
+      &__price {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 10px;
+
+        &__old {
+          &__text {
+            color: #666666;
+            font-family: "Roboto Light";
+            padding-bottom: 10px;
+
+          }
+
+          &__price {
+            padding: 5px 10px;
+            font-size: 34px;
+
+          }
+        }
+
+        &__new {
+          &__text {
+            font-family: Roboto;
+            padding-bottom: 10px;
+          }
+
+          &__price {
+            padding: 5px 10px;
+            font-size: 34px;
+            background: #ffc002;
+            border-radius: 5px;
+            font-weight: bold;
+
+          }
+        }
+      }
+
+      &__name {
+        margin: 15px 0px;
+        text-align: center;
+        border: none;
+        border-radius: 32px;
+        background: #eef2f7;
+        width: 220px;
+        height: 65px;
+        outline:none;
+      }
+
+      &__phone {
+        text-align: center;
+        border: none;
+        border-radius: 32px;
+        background: #eef2f7;
+        width: 220px;
+        height: 65px;
+        outline:none;
+      }
+
+      &__btn {
+        text-align: center;
+        border: none;
+        border-radius: 32px;
+        margin: 13px 0px;
+        width: 220px;
+        height: 65px;
+        background: #ffc002;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 0.5;
+        outline:none;
+      }
+
+      &__futter {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.font__size {
+  font-size: 34px;
+}
+
+.red {
+  border-bottom: 2px solid #ff6b00;
+}
+
+.green {
+  border-bottom: 2px solid #a7c93d;
+}
+
+.roboto__medium {
+  font-family: 'Roboto:500', sans-serif;
+}
+
+.neugadal {
+  padding: 85px 60px;
+}
+
+.orange__text {
+  color: #ff6b00;
+}
+
+.min_size {
+  font-size: 16px;
+}
+
+.green__text {
+  color: #a7c93d;
+}
+.btn{
+  text-align: center;
+  border: none;
+  border-radius: 32px;
+  margin: 13px 0px;
+  width: 180px;
+  height: 65px;
+  background: #ffc002;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.1;
+  outline:none;
+  position: absolute;
+  right: 100%;
+}

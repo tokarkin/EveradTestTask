@@ -1,0 +1,115 @@
+.effect {
+  width: 100%;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  background-image: url("../../images/Fon2.png");
+  &__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+
+    &__title {
+      padding-top: 20px;
+      font-size: 48px;
+      text-align: center;
+      font-family: 'Roboto';
+
+    }
+
+    &__blocks {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+      flex-wrap: wrap;
+      &__item {
+        width: 32%;
+        border: 1px solid red;
+        border-radius: 20px;
+        border-top: 8px solid green;
+        background: #eef2f7;
+        position: relative;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 26px;
+        text-align: center;
+
+        &__img {
+          position: absolute;
+          width: 90px;
+          height: 90px;
+          padding: 10px;
+          text-align: center;
+          border-radius: 50px;
+          top: -45px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #f0f9fa;
+          box-shadow: 0 1.5px 0px 0px rgba(0, 0, 0, 0.5);
+        }
+
+        &__header {
+          font-family: Roboto;
+          font-size: 24px;
+          padding-top: 30px;
+        }
+
+        &__text {
+          font-family: Roboto;
+          font-size: 18px;
+          padding-top: 20px;
+        }
+
+        &__line {
+          padding-top: 25px;
+        }
+
+        &__text2 {
+          font-size: 18px;
+          padding: 13px 10px;
+          font-family: 'Roboto';
+          line-height: 1.5;
+          color: #9a9999;
+        }
+      }
+    }
+
+    &__footer {
+      text-align: center;
+      position: relative;
+      margin-top: 50px;
+      padding: 25px 50px;
+      border: 1.5px solid #f4d3bb;
+      border-radius: 5px;
+
+      &__title {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        background: #f0f9fa;
+      }
+
+      &__text {
+        font-size: 18px;
+        color: #9a9999;
+
+      }
+    }
+  }
+
+}
+
+.center {
+  text-align: center;
+}
+
+.roboto__medium {
+  font-family: Roboto;
+  color: black;
+  font-weight: bolder;
+}
+
+.italic {
+  padding-top: 5px;
+  font-style: italic;
+}

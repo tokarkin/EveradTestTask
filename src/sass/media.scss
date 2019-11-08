@@ -1,0 +1,552 @@
+@media screen and (max-width: 1200px) {
+  .lineFirst {
+    margin-top: 25px;
+  }
+  .container {
+    width: 1300px;
+    height: 850px;
+    background: url("../../images/299.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .button__wrapper {
+    position: absolute;
+    top: 700px;
+    right: 15%;
+  }
+  .btn {
+    display: inherit;
+  }
+  .btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 5, 0.5);
+  }
+
+  .header {
+    width: 900px;
+
+    &__nav {
+      padding: 10px 5px 10px 100px;
+
+      width: 900px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      &__item {
+        &__name {
+          padding: 0px 15px;
+        }
+      }
+    }
+
+    &__wrapper {
+      width: 900px;
+
+      &__inner {
+        margin: 20px 60%;
+      }
+
+      &__telephon {
+        top: -1000px;
+        position: absolute;
+        transition: transform 200ms ease-in-out;
+        transform: translateX(0) translateY(0);
+      }
+    }
+
+  }
+  .header__wrapper__telephon__active {
+    top: 10px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+    transform: translateX(35%) translateY(15%);
+  }
+  .danger {
+    width: 900px;
+    &__title {
+      font-size: 38px;
+    }
+    &__title__info {
+      font-size: 20px;
+    }
+    &__wrapper {
+      justify-content: space-evenly;
+
+      &__item {
+        width: 50%;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  .effect {
+    width: 1100px;
+    margin: 0 auto;
+
+    &__wrapper {
+      width: 900px;
+
+      &__title {
+        font-size: 38px;
+      }
+
+      &__blocks {
+        display: flex;
+
+        justify-content: space-evenly;
+
+        &__item {
+          width: 48%;
+          flex-wrap: wrap;
+          flex-flow: row wrap;
+
+          &__header {
+            font-family: Roboto;
+            font-size: 20px;
+            padding-top: 30px;
+          }
+
+          &__text {
+            font-family: Roboto;
+            font-size: 16px;
+            padding-top: 20px;
+          }
+
+          &__text:first-child {
+            padding-bottom: 125px;
+          }
+
+        }
+
+        &__item:nth-child(3) {
+          margin-top: 50px;
+        }
+
+        &__item:nth-child(2) {
+          margin-left: 15px;
+        }
+
+      }
+    }
+  }
+  .tablets {
+    width: 900px;
+    &__title {
+      font-size: 35px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__container {
+      justify-content: space-evenly;
+      &__block {
+        width: 45%;
+      }
+      &__block:nth-child(3) {
+        padding-top: 80px;
+      }
+    }
+
+    &__footer {
+      margin-top: 50px;
+    }
+  }
+  .footer {
+    width: 900px;
+
+    &__header {
+      font-size: 35px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .container {
+    width: 1300px;
+
+    background-position: center center;
+  }
+  .button__wrapper {
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+  }
+  .btn {
+    display: inherit;
+  }
+  .btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 5, 0.5);
+  }
+
+  .header {
+    width: 760px;
+
+    &__nav {
+      padding: 10px 15px 10px 100px;
+      width: 760px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      &__item {
+        &__name {
+          padding: 0px 15px;
+          font-size: 25px;
+        }
+      }
+
+      &__item:nth-child(2) {
+        display: none;
+      }
+    }
+
+    &__wrapper {
+      width: 760px;
+
+      &__inner {
+        width: 300px;
+        margin: 50px 60%;
+
+        &__slogan {
+          font-size: 25px;
+          text-align: center;
+        }
+
+        &__block {
+          &__section {
+            width: 400px;
+
+            &__text {
+              font-size: 15px;
+            }
+
+            &__text:nth-child(2) {
+              padding-top: 50px;
+            }
+
+            &__text:nth-child(3) {
+              padding-top: 50px;
+            }
+          }
+        }
+      }
+
+      &__telephon {
+        top: -1000px;
+        position: absolute;
+        transition: transform 200ms ease-in-out;
+        transform: translateX(0) translateY(0);
+      }
+    }
+
+  }
+  .header__wrapper__telephon__active {
+    top: 10px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+    transform: translateX(35%) translateY(15%);
+  }
+  .tablets {
+    width: 760px;
+
+    &__container {
+      &__block {
+        &__lorem {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .effect {
+    width: 860px;
+
+    &__wrapper {
+      width: 780px;
+
+      &__title {
+        font-size: 28px;
+      }
+      &__blocks {
+        &__item {
+          width: 55%;
+        }
+        &__item:nth-child(2) {
+          margin-top: 50px;
+        }
+      }
+      &__footer {
+        width: 650px;
+        margin: 80px auto;
+      }
+    }
+  }
+  .danger {
+    width: 760px;
+
+    &__footer__block__title {
+      font-size: 20px;
+    }
+  }
+  .footer {
+    width: 760px;
+  }
+  .font__size {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .container {
+    background-image: none;
+    background-position: center center;
+  }
+  .header__wrapper__telephon__active {
+    top: 10px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+    transform: translateX(35%) translateY(8%);
+  }
+  .button__wrapper {
+    position: absolute;
+    bottom: 200px;
+    right: 37%;
+  }
+  .header {
+    width: 500px;
+
+    &__nav {
+      width: 400px;
+
+      &__item {
+        &__name {
+          padding: 0px 15px;
+          font-size: 25px;
+        }
+      }
+
+      &__item:nth-child(4) {
+        display: none;
+      }
+    }
+
+    &__wrapper {
+      width: 560px;
+
+      &__inner {
+        width: 300px;
+        margin: 50px 50%;
+        transform: translateX(-50%);
+
+        &__slogan {
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .danger {
+    width: 500px;
+    &__footer__block__title{
+      font-size: 18px;
+    }
+    &__title {
+      font-size: 28px;
+    }
+
+    &__title__info {
+      font-size: 18px;
+    }
+
+    &__wrapper {
+      justify-content: space-evenly;
+
+      &__item {
+        width: 70%;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  .footer{
+    width: 500px;
+    &__header{
+      font-size: 30px;
+    }
+    &__wrapper{
+      width: 80%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+  }
+  .effect {
+    width: 550px;
+    &__wrapper {
+      width: 500px;
+      &__title {
+        font-size: 28px;
+      }
+      &__blocks {
+        &__item {
+          width: 70%;
+        }
+        &__item:nth-child(2) {
+          margin-top: 50px;
+        }
+      }
+      &__footer {
+        width: 450px;
+        margin: 80px auto;
+      }
+    }
+  }
+  .tablets {
+    width: 500px;
+    &__title {
+      font-size: 28px;
+    }
+    &__text {
+      font-size: 16px;
+      padding: 20px;
+    }
+    &__container {
+      justify-content: space-evenly;
+      &__block {
+        width: 65%;
+        &__header{
+          padding-top: 100px;
+        }
+      }
+      &__block:nth-child(2){
+        margin-top: 50px;
+      }
+
+    }
+
+
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header__wrapper__telephon__active {
+    top: 10px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+    transform: translateX(-5%) translateY(8%);
+  }
+  .button__wrapper {
+    position: absolute;
+    bottom: 200px;
+    right: 20%;
+  }
+  .header {
+    width: 320px;
+
+    &__nav {
+      width: 320px;
+
+      &__item {
+        &__name {
+          padding: 0px 15px;
+          font-size: 25px;
+        }
+      }
+
+      &__item:nth-child(3) {
+        display: none;
+      }
+    }
+
+    &__wrapper {
+      width: 320px;
+
+      &__inner {
+        width: 300px;
+        margin: 50px 50%;
+        &__slogan {
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .danger {
+    width: 320px;
+    &__wrapper {
+      &__item {
+        width: 65%;
+          &__block{
+            flex-direction: column;
+          }
+      }
+    }
+    &__footer__block__title{
+      width: 290px;
+    }
+  }
+  .footer{
+    width: 320px;
+    &__header{
+      font-size: 30px;
+    }
+    &__wrapper{
+      width: 90%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+  }
+  .effect {
+    width: 320px;
+    &__wrapper {
+      width: 320px;
+      &__title {
+        font-size: 28px;
+      }
+      &__blocks {
+        &__item {
+          width: 70%;
+          &__line{
+            display: none;
+          }
+        }
+        &__item:nth-child(2) {
+          margin-top: 50px;
+        }
+      }
+      &__footer {
+        width: 320px;
+      }
+    }
+  }
+  .tablets {
+    width: 320px;
+    &__title {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 16px;
+      padding: 20px;
+    }
+    &__container {
+      &__block {
+        width: 80%;
+        &__header{
+          padding-top: 70px;
+          font-size: 18px;
+        }
+        &__lorem{
+          font-size: 13px;
+        }
+      }
+      &__block:nth-child(2){
+        margin-top: 50px;
+      }
+
+    }
+
+
+  }
+
+}

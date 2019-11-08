@@ -1,0 +1,52 @@
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  &__img{
+    padding-top: 150px;
+  }
+  &__header{
+    font-size: 47px;
+    padding-top: 15px;
+    font-family: Roboto;
+  }
+  &__wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: flex-end;
+    &__block{
+
+      &__item{
+
+        display: flex;
+        align-items: center;
+        &__elements{
+          padding: 20px;
+          &__line{
+            content: ' ';
+            width: 20px;
+            height: 3px;
+            background:#7bbf1c;
+            padding-left: 20px;
+          }
+          &__header{
+            padding-top: 20px;
+            line-height: 1.5;
+          }
+        }
+      }
+      &__item:nth-child(2){
+        padding-top: 20px;
+      }
+      &__item:nth-child(3){
+        padding-top: 20px;
+      }
+    }
+  }
+}
+.backgroundImageFooter{
+  background-image: url("../../images/Fon2.png");
+  width: 100%;
+}
